@@ -1,0 +1,7 @@
+#This is only necessary for a dataframe that has file names text to ensure that there are always strings in the text. If you are using text that is full sentences than you can skip this step.
+#This would be the input for either FastText or LangDetect
+
+def text(file_names_clean):
+    from pyspark.sql.functions import initcap, col, lower, upper, trim, concat, lit
+    text = file_names_clean.withColumn('text', concat(col("file_name"), lit(" text")))
+    return text
