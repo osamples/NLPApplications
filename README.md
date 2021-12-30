@@ -23,7 +23,8 @@ Topic Modeling can be considered the reverse engineering approach to Classificat
   - Latent Semantic Analysis (LSA)
   - Parallel Latent Dirichlet Allocation (PLDA)
   - Pachinko Allocation Model (PAM)
- I have applied this using [Gensim](https://www.machinelearningplus.com/nlp/topic-modeling-visualization-how-to-present-results-lda-models/#6.-What-is-the-Dominant-topic-and-its-percentage-contribution-in-each-document) which is a managed solution with an LDA approach. 
+
+I have applied this using [Gensim](https://www.machinelearningplus.com/nlp/topic-modeling-visualization-how-to-present-results-lda-models/#6.-What-is-the-Dominant-topic-and-its-percentage-contribution-in-each-document) which is a managed solution with an LDA approach. Because I use this as an exploratory solution for now, I cannot provide a developed pipeline in documentation. Please see the Gensim link if you'd like to apply this technique yourself.
  
 ### Fuzzy Classification or Deduplication
 Typos and different spellings are human errors that can negatively effect the usefulness of your text data. In a situation where you have a database of names, you may have duplicate records without knowing it because of these human errors. The solution here is fuzzy matching and more advanced deduplication techniques.
