@@ -41,7 +41,7 @@ While dedupe was available in [pypi](https://pypi.org/project/dedupe/), it was n
  Another scenario you come across with text data is different languages and needing to identify them. I created a pipeline that can easily and accurately identify langauges being used in text based off a previously trained model called FastText. There are many [pre-trained models](https://modelpredict.com/language-identification-survey) that can be used to identify different languages in text. We choose to use pre-trained models for this solution because we do not need it to be customized further (unlike our classification or NER models).
  
  We were able to test two solutions in Foundry: LangDetect and FastText. We have the documentation for both, but in the end FastText is the better option. The reasons for choosing  FastText include the speed at which it runs in Foundry and its proven accuracy compared to other models.
-FastText is built off an ensemple of supervized clusterization models. You can learn more about these models [here](https://fasttext.cc/docs/en/language-identification.html).
+FastText is built off an ensemble of supervised clusterization models. You can learn more about these models [here](https://fasttext.cc/docs/en/language-identification.html).
 
 You can also learn more about how I implemented this solution in my `Language Detection Pipeline` documentation.
 
