@@ -2,7 +2,7 @@
 Natural Language Processing Applications and Architectural Solutions
 
 ## Background
-My work with Human Rights Issues has opened up a world of text problems, many of which can be explored using Natural Language Processsing. I will detail multiple techniques I have explored along with the enablement solutions I architected within [Palantir Foundry](https://www.palantir.com/platforms/foundry/). 
+My work with Human Rights Issues has opened up a world of text problems, many of which can be explored using Natural Language Processing. I will detail multiple techniques I have explored along with the enablement solutions I architected within [Palantir Foundry](https://www.palantir.com/platforms/foundry/). 
 
 ## Natural Language Processing
 NLP is concerned with giving computers the ability to understand text and spoken words in much the same way human beings can. Text data can be looked at as a pool of words and phrases. NLP attempts to structure this unstructured data.
